@@ -21,7 +21,7 @@
     max-width: 450px;
     background: rgba(61, 61, 62, 0.75);
     border-radius: 4px;
-    padding: 30px 60px;
+    padding: 30px 70px;
     margin: auto;
     
     
@@ -87,4 +87,25 @@
     color: #fff;
     font-weight: 500;
     cursor: pointer;
+}
+.login-spinner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-spinner img{
+    width: 60px;
+}
+
+@media (max-width: 500px) {
+    .login{
+        padding: 15px 5%;
+    }
+    .login-from{
+        padding: 20px;
+        margin-top: 30px;
+    }
+    
 }
