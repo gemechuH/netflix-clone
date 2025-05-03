@@ -29,7 +29,7 @@ const Login = () => {
     </div> :
       <div className="login">
       <img src={logo} alt="/" className="login-logo" />
-      <div className="login-from">
+      <div className="login-from"> 
         <h1>{signState}</h1>
         <form>
           {signState === "Sign Up" ? (
